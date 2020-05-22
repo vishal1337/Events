@@ -1,6 +1,6 @@
-## Events using Paytm APIs
+## Events using Paytm Insider APIs
 
-Poc app which showcases Events in a city using Paytm APIs
+Poc app which showcases Events in a city using Paytm Insider APIs
 
 [Download](https://github.com/vishal1337/Events/raw/master/apk_file/app_debug.apk) APK to try the App
 
