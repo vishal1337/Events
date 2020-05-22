@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PI Task</string>
+    <string name="label_events">Events (Mumbai) </string>
+    <string name="action_reload">Reload</string>
+    <string name="message_error_internet">Internet is not Available.</string>
+    <string name="text_retry">Retry</string>
+</resources>
