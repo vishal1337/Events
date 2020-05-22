@@ -51,7 +51,7 @@ class EventsFragment @Inject constructor() : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         initToolbar()
-        initRecyclerView()
+        initView()
 
         // Load Data
         fetchData()
@@ -69,6 +69,11 @@ class EventsFragment @Inject constructor() : BaseFragment() {
                 true
             }
         }
+    }
+
+    private fun initView() {
+        buttonRetry.setOnClickListener { fetchData() }
+        initRecyclerView()
     }
 
     private fun initRecyclerView() {
